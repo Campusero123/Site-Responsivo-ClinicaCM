@@ -1,0 +1,60 @@
+.topo {
+    background-color: #00cad1;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.menu nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: end;
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.fundo-home {
+    background: url("assets/recepcao.png");
+    width: 100%;
+    background-size: cover;
+    height:650px;
+    background-position: center center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fundo-text {
+    color: white;
+    padding-left: 2%;
+}
